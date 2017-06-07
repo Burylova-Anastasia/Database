@@ -1,5 +1,5 @@
 /*Заданте 6*/
-CREATE SEQUENCE SEQ_csterer
+CREATE SEQUENCE SEQ_caterer
 	START WITH 1
 	INCREMENT BY 1;
 CREATE SEQUENCE SEQ_Store
@@ -38,7 +38,7 @@ CREATE SEQUENCE SEQ_JOB
 
 /*Задание 7*/
 INSERT INTO t_caterer (ID_caterer, NAME, Legal_Address, Actual_Address, E_Mail, PHONE, FAX)
-	VALUES (SEQ_csterer.NEXTVAL, 'Поставщик 1', 'Город, улица, дом', 'Город, улица, дом', 'mail1@mail.ru', 89654123946, NULL);
+	VALUES (SEQ_caterer.NEXTVAL, 'Поставщик 1', 'Город, улица, дом', 'Город, улица, дом', 'mail1@mail.ru', 89654123946, NULL);
 INSERT INTO t_caterer (ID_caterer, NAME, Legal_Address, Actual_Address, E_Mail, PHONE, FAX)
 	VALUES (SEQ_csterer.NEXTVAL, 'Поставщик 2', 'Город, улица, дом', 'Город, улица, дом', 'mail2@mail.ru', 89641234948, NULL);
 INSERT INTO t_caterer (ID_caterer, NAME, Legal_Address, Actual_Address, E_Mail, PHONE, FAX)
@@ -46,7 +46,7 @@ INSERT INTO t_caterer (ID_caterer, NAME, Legal_Address, Actual_Address, E_Mail, 
 INSERT INTO t_caterer (ID_caterer, NAME, Legal_Address, Actual_Address, E_Mail, PHONE, FAX)
 	VALUES (SEQ_csterer.NEXTVAL, 'Поставщик 4', 'Город, улица, дом', 'Город, улица, дом', 'mail4@mail.ru', 89659127846, NULL);
 INSERT INTO t_caterer (ID_caterer, NAME, Legal_Address, Actual_Address, E_Mail, PHONE, FAX)
-	VALUES (SEQ_csterer.NEXTVAL, 'Поставщик 5', 'Город, улица, дом', 'Город, улица, дом', 'mail5@mail.ru', 89124127446, NULL);	
+	VALUES (SEQ_caterer.NEXTVAL, 'Поставщик 5', 'Город, улица, дом', 'Город, улица, дом', 'mail5@mail.ru', 89124127446, NULL);	
 
 INSERT INTO t_Store (ID_Store, NAME)
 	VALUES (SEQ_Store.NEXTVAL, 'Склад 1');
